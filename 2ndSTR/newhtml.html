@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<style type = "text/css">	
+		form { 
+			background : gray;
+			margin: 15px;
+			padding: 15px;
+			border: 1px solid black;
+		}
+ 
+		input.input_login {
+			background-color: #cf9;
+			font-weight: bold;
+			border: 1px dashed;
+		}
+
+		img.flag_img {
+			height: 300px;
+			width: 300px;
+		}
+
+		select.russian_selector {
+			color: red;
+		}
+
+		option.option1 {
+			font-weight: bold;
+		}
+
+		div.chooser {
+			display: flex;
+		}
+
+		div.content {
+			margin-left: 100px;
+		}
+	</style>
+</head>
+<body>
+	<form id="singup">
+		<label>Имя
+			<input class="input_login" type="text"><br>
+		</label>
+		<lable>Пароль
+			<input type="password"><br>
+		</lable>
+		<label>
+			<input type="submit">
+		</label>
+	</form>
+
+
+	<form id="onemoreform">
+		<div class="chooser">
+			<img class = "flag_img" src="flag.jpeg">
+			<div class="content">
+				<select class="russian_selector">
+					<option class="option_full">Страна</option>
+					<option class="option1">Россия</option>
+					<option class="option2">США</option>
+				</select>
+				<br>
+				<input type="checkbox" checked>Я резидент
+			</div>
+		</div>
+		<button>Сохранить</button>
+	</form>
+</body>
+</html>
