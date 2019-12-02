@@ -1,0 +1,51 @@
+.reg {
+  background-image: url('content/icon.png');
+  width: 200px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  border-radius: 10px;
+}
+
+.reg:hover {
+  background-color:aqua;
+}
+
+.whois {
+  background-image: url('content/chicken.png');
+  width: 200px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  border-radius: 10px;
+}
+
+.whois:hover {
+  background-color:beige;
+}
+
+.reset {
+  background-image: url('content/fish.png');
+  width: 200px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  border-radius: 10px;
+}
+
+.reset:hover{
+  background-color:aquamarine;
+}
+
+.showMe {
+  background-image: url('content/flower.png');
+  width: 200px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  border-radius: 10px;
+}
+
+.showMe:hover {
+  background-color: blueviolet;
+}
